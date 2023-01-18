@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import { useState } from 'react'
+import { Hero } from './Components/Hero'
+import { Navbar } from './Components/Navbar'
+import { PricesLanding } from './Components/Prices/PricesLanding'
+import { Footer } from './Components/Footer'
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Navbar />
+      <div className='md:bg-gradient-to-r md:from-[#F8FAFC] md:to-[#f8fafc1a]'>
+        <Hero />
+        <PricesLanding />
+      </div>
+      <Footer />
+
+    </>
+  )
 }
 
-export default App;
+export default App
