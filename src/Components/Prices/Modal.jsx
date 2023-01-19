@@ -13,7 +13,7 @@ export const Modal = ({ setShowModal, price }) => {
                         {/*header*/}
                         <div className="flex items-center justify-between p-5 border-b border-solid border-slate-200 rounded-t">
                             <div>
-                                <img src={price.image} alt='image' className='w-[24px] h-[24px] mr-2' />
+                                <img src={price.image} alt='CryptoCoin Logo' className='w-[24px] h-[24px] mr-2' />
                             </div>
                             <h3 className="text-2xl font-semibold">
                                 {price.name}

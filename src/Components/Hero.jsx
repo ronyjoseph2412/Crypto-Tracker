@@ -20,7 +20,7 @@ export const Hero = () => {
                 <div className='grid grid-cols-3 gap-3'>
                     <div className='2xl:w-[440px] h-[130px] px-4 space-x-5 flex flex-row card justify-start items-center bg-[#FFFFFF] rounded-[12px]'>
                         <div className=''>
-                            <img src='/1.png' alt='image' className='w-[80px] 2xl:w-[100px]' />
+                            <img src='/1.png' alt='Carasouel 1' className='w-[80px] 2xl:w-[100px]' />
                         </div>
                         <div className='flex flex-col justify-center items-start -mt-5 space-y-1'>
                             <div className='text-[#656C7E] font-normal text-lg'>
@@ -33,7 +33,7 @@ export const Hero = () => {
                     </div>
                     <div className='2xl:w-[440px] h-[130px] px-4 space-x-2 flex flex-row card justify-start items-center bg-[#FFFFFF] rounded-[12px]'>
                         <div className='w-[140px]'>
-                            <img src='/2.png' alt='image' className='h-full' />
+                            <img src='/2.png' alt='Carasouel 2' className='h-full' />
                         </div>
                         <div className='flex flex-col justify-center items-start -mt-1 space-y-1'>
                             <div className='text-[#656C7E] font-normal text-lg'>
@@ -47,7 +47,7 @@ export const Hero = () => {
                     </div>
                     <div className='2xl:w-[440px] h-[130px] px-4 space-x-5 flex flex-row card justify-start items-center bg-[#FFFFFF] rounded-[12px]'>
                         <div className='w-[150px]'>
-                            <img src='/3.png' alt='image' className='' />
+                            <img src='/3.png' alt='Carasouel 3' className='' />
                         </div>
                         <div className='flex flex-col justify-center items-start -mt-1 space-y-1'>
                             <div className='text-[#656C7E] font-normal text-lg'>
@@ -68,13 +68,13 @@ export const Hero = () => {
 
                 </div>
             </div>
-            <div className='lg:hidden w-[440px] mx-auto bg-white'>
+            <div className='lg:hidden w-[380px] mx-auto bg-white'>
                 <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
                     <SwiperSlide>
                         <div className='h-[170px]'>
-                        <div className='w-[440px] h-[130px] px-4 space-x-5 flex flex-row card justify-start items-center bg-[#FFFFFF] rounded-[12px]'>
+                        <div className='w-[380px] h-[130px] px-4 space-x-5 flex flex-row card justify-start items-center bg-[#FFFFFF] rounded-[12px]'>
                             <div className=''>
-                                <img src='/1.png' alt='image' className='w-[80px] 2xl:w-[100px]' />
+                                <img src='/1.png' alt='Carasouel 1' className='w-[80px] 2xl:w-[100px]' />
                             </div>
                             <div className='flex flex-col justify-center items-start -mt-5 space-y-1'>
                                 <div className='text-[#656C7E] font-normal text-lg'>
@@ -88,9 +88,9 @@ export const Hero = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                    <div className='w-[440px] h-[130px] px-4 space-x-2 flex flex-row card justify-start items-center bg-[#FFFFFF] rounded-[12px]'>
+                    <div className='w-[380px] h-[130px] px-4 space-x-2 flex flex-row card justify-start items-center bg-[#FFFFFF] rounded-[12px]'>
                         <div className='w-[140px]'>
-                            <img src='/2.png' alt='image' className='h-full' />
+                            <img src='/2.png' alt='Carasouel 2' className='h-full' />
                         </div>
                         <div className='flex flex-col justify-center items-start -mt-1 space-y-1'>
                             <div className='text-[#656C7E] font-normal text-lg'>
@@ -104,9 +104,9 @@ export const Hero = () => {
                     </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                    <div className='w-[440px] h-[130px] space-x-5 flex flex-row card justify-start items-center bg-[#FFFFFF] rounded-[12px]'>
+                    <div className='w-[380px] h-[130px] space-x-5 flex flex-row card justify-start items-center bg-[#FFFFFF] rounded-[12px]'>
                         <div className='w-[150px]'>
-                            <img src='/3.png' alt='image' className='' />
+                            <img src='/3.png' alt='Carasouel 3' className='' />
                         </div>
                         <div className='flex flex-col justify-center items-start -mt-1 space-y-1'>
                             <div className='text-[#656C7E] font-normal text-lg'>

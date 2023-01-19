@@ -17,7 +17,7 @@ export const PriceRow = ({ price }) => {
             <td className="">
                 <div className='flex flex-row justify-start items-center space-x-1'>
                     <div>
-                        <img src={price.image} alt='image' className='w-[24px] h-[24px]' />
+                        <img src={price.image} alt='CryptoCoin Logo' className='w-[24px] h-[24px]' />
                     </div>
                     <div className='text-[#222531] font-semibold'>
                         {price.name}
